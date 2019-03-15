@@ -1,7 +1,7 @@
 {
-  "name": "gulp-uglify",
+  "name": "gulp-uglify-chylvina",
   "description": "Minify files with UglifyJS.",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "author": "Terin Stock <terinjokes@gmail.com>",
   "bugs": "https://github.com/terinjokes/gulp-uglify/issues",
   "dependencies": {
@@ -10,7 +10,8 @@
     "lodash": "^4.13.1",
     "make-error-cause": "^1.1.1",
     "through2": "^2.0.0",
-    "uglify-js": "^3.0.5",
+    "uglify-es": "github:mishoo/UglifyJS2#harmony",
+    "uglify-js": "3.4.9",
     "vinyl-sourcemaps-apply": "^0.2.0"
   },
   "devDependencies": {
